@@ -1,0 +1,45 @@
+{
+  "name": "multi-integration-library-test",
+  "version": "1.0.0",
+  "description": "Repository for testing https://github.com/brunopenso/multi-integration-library",
+  "main": "index.js",
+  "scripts": {
+    "express": "node src/express/",
+    "standard:fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunopenso/multi-integration-library-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunopenso/multi-integration-library-test/issues"
+  },
+  "homepage": "https://github.com/brunopenso/multi-integration-library-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**"
+    ]
+  },
+  "standard": {
+    "globals": [
+      "beforeAll",
+      "afterAll",
+      "beforeEach",
+      "afterEach",
+      "setTimeout",
+      "describe",
+      "it",
+      "test",
+      "expect",
+      "jest"
+    ]
+  }
+}
