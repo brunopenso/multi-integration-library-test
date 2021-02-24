@@ -3,12 +3,12 @@ const todo = require('./todo')
 const routes = [
   {
     pattern: '/todo',
-    method: 'get',
+    method: 'GET',
     exec: (params) => todo.getAll(params)
   },
   {
     pattern: '/todo/:id',
-    method: 'get',
+    method: 'GET',
     exec: (params) => todo.getById(params)
   }
 ]
