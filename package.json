@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/brunopenso/multi-integration-library-test#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "multi-integration-library": "^1.0.1"
   },
   "devDependencies": {
     "standard": "^16.0.3"
