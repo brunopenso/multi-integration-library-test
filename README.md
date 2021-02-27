@@ -5,6 +5,10 @@ Repository for testing https://github.com/brunopenso/multi-integration-library
 ## Run as Docker
 
 ```bash
+docker build -t multintegration:1 .
+docker container run --name testlocal --publish 3000:3000 multintegration:1
+docker container stop
+docker container rm testlocal
 ```
 
 ## Run as Express server
