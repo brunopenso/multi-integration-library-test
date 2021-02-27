@@ -7,7 +7,7 @@ Repository for testing https://github.com/brunopenso/multi-integration-library
 ```bash
 docker build -t multintegration:1 .
 docker container run --name testlocal --publish 3000:3000 multintegration:1
-docker container stop
+docker container stop testlocal
 docker container rm testlocal
 ```
 
