@@ -23,5 +23,7 @@ npm run express
 curl -v http://localhost:3000/todo
 curl -v http://localhost:3000/todo/123
 curl -v http://localhost:3000/todo/123/checklist
-curl -v -d "{todo: 'my new todo'}" http://localhost:3000/todo
+curl -v -d "{todo: 'my new todo'}" POST http://localhost:3000/todo
+curl -v -H 'x-my-customheader: myvalue' http://localhost:3000/todo/123/checklist/1
+curl -v DELETE http://localhost:3000/todo/567
 ```

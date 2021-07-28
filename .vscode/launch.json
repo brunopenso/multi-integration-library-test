@@ -8,10 +8,23 @@
             "type": "node",
             "request": "launch",
             "name": "Express",
-            "skipFiles": [
-                "<node_internals>/**"
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script",
+                "express"
             ],
-            "program": "${workspaceFolder}/src/express/index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Fastify",
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script",
+                "fastify"
+            ],
         }
     ]
 }
