@@ -24,7 +24,7 @@
     "multi-integration-library": "^1.1.0"
   },
   "devDependencies": {
-    "standard": "^16.0.3"
+    "standard": "^16.0.4"
   },
   "jest": {
     "collectCoverageFrom": [
