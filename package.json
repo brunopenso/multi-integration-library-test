@@ -21,7 +21,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "fastify": "^3.27.2",
-    "multi-integration-library": "^1.2.1"
+    "multi-integration-library": "^1.2.2"
   },
   "devDependencies": {
     "standard": "^16.0.4"
