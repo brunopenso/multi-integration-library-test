@@ -9,7 +9,7 @@ const app = express()
 app.use(express.json())
 
 app.all('/*', function (req, res) {
-  runtime(routes, req, res)
+  runtime(routes, req, res, 'express')
 })
 
 app.listen(3000, function () {
