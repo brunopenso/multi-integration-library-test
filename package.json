@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/brunopenso/multi-integration-library-test#readme",
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.18.2",
     "fastify": "^3.27.4",
     "multi-integration-library": "^2.0.0"
   },
